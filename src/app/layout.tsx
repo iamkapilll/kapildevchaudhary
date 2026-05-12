@@ -29,13 +29,11 @@
 //       >
 //         {/* <h2>TThe layout.tsx file is like a global thing kinda like dashboard</h2> */}
 //         <Navbar />
-//         {children} 
+//         {children}
 //       </body>
 //     </html>
 //   );
 // }
-
-
 
 //original
 // app/layout.tsx
@@ -83,11 +81,6 @@
 //   );
 // }
 
-
-
-
-
-
 //2
 // import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
@@ -132,7 +125,6 @@
 //     </html>
 //   );
 // }
-
 
 //original
 //3
@@ -180,12 +172,7 @@
 //   );
 // }
 
-
-
-
-
-
-//sttars:
+//app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -213,16 +200,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative bg-black text-white`}
       >
-        {/* 🌌 Global stars applied once */}
         <ShootingStars className="fixed inset-0 pointer-events-none z-0" />
         <StarsBackground className="fixed inset-0 pointer-events-none z-0" />
 
-        {/* Navbar */}
         <Navbar className="relative z-10" />
 
-        {/* Page content above stars */}
         <main className="relative z-10">{children}</main>
       </body>
     </html>

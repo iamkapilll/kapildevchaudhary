@@ -203,7 +203,14 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative bg-black text-white`}
       >
         <ShootingStars className="fixed inset-0 pointer-events-none z-0" />
+        <ShootingStars className="fixed inset-0 pointer-events-none z-0" />
+        <ShootingStars className="fixed inset-0 pointer-events-none z-0" />
+        <ShootingStars className="fixed inset-0 pointer-events-none z-0" />
+        <ShootingStars className="fixed inset-0 pointer-events-none z-0" />
+
         <StarsBackground className="fixed inset-0 pointer-events-none z-0" />
+        <StarsBackground className="fixed inset-0 pointer-events-none z-0" />
+        
 
         <Navbar className="relative z-10" />
 

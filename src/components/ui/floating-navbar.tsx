@@ -1,3 +1,4 @@
+//src/components/ui/floating-navbar.tsx
 "use client";
 import React, { useState } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "motion/react";
@@ -48,6 +49,7 @@ export const FloatingNav = ({
         <a
           href="/resume.pdf"
           target="_blank"
+           rel="noopener noreferrer"
           className="border text-sm font-medium border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-500 hover:text-white transition"
         >
           Resume
@@ -55,8 +57,9 @@ export const FloatingNav = ({
 
         {/* Optional GitHub Icon */}
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/iamkapilll"
           target="_blank"
+          rel="noopener noreferrer"
           className="text-neutral-600 dark:text-white hover:text-blue-500 transition"
         >
           <IconBrandGithub className="h-5 w-5" />

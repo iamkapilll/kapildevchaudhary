@@ -43,3 +43,11 @@ body {
     transform: translate(-50%, -40%) scale(1);
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* re_QRw4xWx7_Ka61pE7WhrsBWyc6za3xSpPw */   

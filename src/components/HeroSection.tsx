@@ -20,14 +20,14 @@ export default function HeroSection() {
       {/* Hero content */}
       <div className="relative z-10 text-center max-w-4xl">
         <h1 className="text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Hi, I'm Kapil Dev Chaudhary
+          Hi, I&apos;m Kapil Dev Chaudhary
         </h1>
-        
 
         <p className="mt-4 md:mt-6 text-base md:text-lg text-neutral-300 mx-auto max-w-lg">
-          A passionate web developer and problem solver. I create interactive web applications, 
-          build creative projects, and love turning ideas into reality. Skilled in web technologies 
-          and always learning new things to level up.
+          A passionate web developer and problem solver. I create interactive
+          web applications, build creative projects, and love turning ideas into
+          reality. Skilled in web technologies and always learning new things to
+          level up.
         </p>
 
         <div className="mt-6 md:mt-8">

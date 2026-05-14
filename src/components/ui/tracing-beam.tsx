@@ -5,14 +5,13 @@ import {
   motion,
   useTransform,
   useScroll,
-  useVelocity,
   useSpring,
 } from "motion/react";
 import { cn } from "@/lib/utils";
 
 export const TracingBeam = ({
   children,
-  className,
+  className,  
 }: {
   children: React.ReactNode;
   className?: string;

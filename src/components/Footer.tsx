@@ -125,8 +125,8 @@ function Footer() {
         {/* Contact */}
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Me</h2>
-          <p>Kathmandu, Nepal</p>
-          <p>New Baneshwor</p>
+          <p>Lalitpur, Nepal</p>
+          {/* <p>Ekantakuna, Lalitpur</p> */}
           <p>Email: kapildevchaudhary067@gmail.com</p>
           <p>Phone: +977 9822637377</p>
         </div>

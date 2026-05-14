@@ -29,8 +29,8 @@ export default function ProjectsSection() {
       description:
         "A modern music learning platform where users can explore structured music courses, learn instruments, and improve their musical skills through interactive lessons and curated content.",
       techStack: ["Next.js", "TypeScript", "MongoDB", "TailwindCSS"],
-      link: "https://ecommerce-platform.vercel.app/",
-      image: "/images/next-music.png",
+      link: "https://next-music-course.vercel.app/",
+      image: "/images/music.png",
     },
 
     {

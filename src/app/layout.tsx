@@ -190,7 +190,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+   title: "Kapil Dev Chaudhary",
   description: "Kapil Dev Chaudhary's Portfolio",
 };
 

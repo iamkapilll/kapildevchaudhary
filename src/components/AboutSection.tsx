@@ -31,7 +31,7 @@ const aboutMeContent = [
   {
     title: "Future Vision",
     description:
-      "My goal is to become a high-level full-stack developer and eventually move into blockchain development, while continuing to grow in sports and personal discipline.",
+      "My goal is to become a high-level full-stack developer and eventually move into AI development, while continuing to grow in sports and personal discipline.",
   },
 ];
 

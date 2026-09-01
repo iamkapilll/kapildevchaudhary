@@ -13,10 +13,12 @@ const profileItems = [
     <>
       Pursuing{" "}
       <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-400 to-teal-400">
-        BSc in Computer Science and Information Technology
+        B.Sc. CSIT
       </span>{" "}
-      (2022–2026). Relevant Coursework: Data Structures, Python, Web
-      Development, AI, Theory of Computation.
+      at Vedas College, Lalitpur (2022–Present). Completed +2 Science at Golden
+      Gate International College, Kathmandu (2020–2022). Relevant Coursework:
+      Data Structures, Operating Systems, Database Management, OOP, Software
+      Engineering.
     </>
   ),
   link: "#education",
@@ -26,30 +28,30 @@ const profileItems = [
     title: "Work Experience",
     description: (
       <>
-        Worked as a{" "}
         <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
-          Frontend Developer
+          AI Engineer Intern
         </span>{" "}
         at{" "}
         <span className="font-semibold text-white">
           Sagea
-        </span>
-        , building responsive and interactive user interfaces using modern web
-        technologies.
+        </span>{" "}
+        (2026). Developing AI-powered applications using Python, FastAPI, and
+        modern AI/LLM technologies. Integrating AI models and APIs, building
+        intelligent agentic systems, and optimizing application performance.
 
         <br />
         <br />
 
-        Also worked as a{" "}
         <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-emerald-500">
-          Full Stack Developer
+          Full Stack Intern
         </span>{" "}
         at{" "}
         <span className="font-semibold text-white">
           Stratigo Collectives
         </span>
-        , developing scalable web applications with both frontend and backend
-        technologies.
+        . Assisted in developing and maintaining modern web applications using
+        JavaScript and React-based technologies. Collaborated with team members
+        to improve UI responsiveness and overall user experience.
       </>
     ),
     link: "#work",
@@ -59,12 +61,14 @@ const profileItems = [
     title: "Hackathons / Events",
     description: (
       <>
-        Recently participated in{" "}
+        Participated in{" "}
         <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400">
           AsianHack025
         </span>{" "}
-        organized by Asian School of Management and Technology. Gained hands-on
-        experience in project planning, collaboration, and problem-solving.
+        with team{" "}
+        <span className="font-semibold text-white">Codeions</span>, developing
+        TaxEase Nepal — a web solution to simplify Nepalese taxation processes.
+        Focused on user experience and data visualization using React.js.
       </>
     ),
     link: "#hackathon",
@@ -83,7 +87,7 @@ const profileItems = [
 
       {/* Subtitle */}
       <p className="max-w-2xl text-center text-neutral-400 mb-12">
-        A combination of technical skills, real-world experience, and continuous learning in modern web development.
+        A combination of AI/ML expertise, full-stack development skills, and real-world experience in building intelligent applications.
       </p>
 
       {/* ================= CORE SKILLS ================= */}
@@ -91,26 +95,52 @@ const profileItems = [
         <BackgroundGradient>
           <div className="p-6 rounded-2xl border border-neutral-200 dark:border-white/20 bg-transparent grid grid-cols-1 md:grid-cols-3 gap-6">
 
+            {/* AI & Generative AI */}
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-3">AI & Generative AI</h3>
+              <div className="space-y-1 text-neutral-300">
+                <p>LLMs</p>
+                <p>Generative AI</p>
+                <p>Agentic AI</p>
+                <p>AI Agents</p>
+                <p>Prompt Engineering</p>
+                <p>AI APIs</p>
+              </div>
+            </div>
+
+            {/* Programming & Backend */}
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-3">Programming & Backend</h3>
+              <div className="space-y-1 text-neutral-300">
+                <p>Python</p>
+                <p>JavaScript (ES6+)</p>
+                <p>FastAPI</p>
+                <p>Node.js & Express.js</p>
+                <p>REST APIs</p>
+                <p>Pydantic & SQLAlchemy</p>
+              </div>
+            </div>
+
             {/* Frontend */}
             <div>
               <h3 className="text-xl font-semibold text-white mb-3">Frontend</h3>
               <div className="space-y-1 text-neutral-300">
                 <p>React.js</p>
                 <p>Next.js</p>
-                <p>TypeScript</p>
-                <p>TailwindCSS</p>
-                <p>Framer Motion</p>
+                <p>HTML & CSS</p>
+                <p>MERN Stack</p>
+                <p>API Integration</p>
               </div>
             </div>
 
-            {/* Backend */}
+            {/* Databases */}
             <div>
-              <h3 className="text-xl font-semibold text-white mb-3">Backend</h3>
+              <h3 className="text-xl font-semibold text-white mb-3">Databases</h3>
               <div className="space-y-1 text-neutral-300">
-                <p>Node.js</p>
-                <p>Express.js</p>
                 <p>MongoDB</p>
-                <p>REST APIs</p>
+                <p>MySQL</p>
+                <p>PostgreSQL</p>
+                <p>SQLite</p>
               </div>
             </div>
 
@@ -121,7 +151,18 @@ const profileItems = [
                 <p>Git & GitHub</p>
                 <p>Postman</p>
                 <p>VS Code</p>
-                <p>Vercel</p>
+                <p>Jupyter Notebook</p>
+              </div>
+            </div>
+
+            {/* Soft Skills */}
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-3">Soft Skills</h3>
+              <div className="space-y-1 text-neutral-300">
+                <p>Team Leadership</p>
+                <p>Team Collaboration</p>
+                <p>Communication</p>
+                <p>Problem Solving</p>
               </div>
             </div>
 
